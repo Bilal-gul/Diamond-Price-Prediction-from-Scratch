@@ -18,7 +18,7 @@ The model was trained on a 54,000+ row dataset using an 80% training and 20% val
 
 ### 1. Advanced Mathematical Feature Engineering
 Real-world diamond prices scale non-linearly with weight (carat). To address this exponential relationship within a linear architecture, a non-linear feature transformation was engineered manually:
-$$X_{\text{carat\_squared}} = X_{\text{carat}}^2$$
+$X_{\text{carat\_squared}} = X_{\text{carat}}^2$
 This inclusion allowed the linear boundary to bend around quadratic trends, significantly dropping the error metrics.
 
 ### 2. Standardized Feature Scaling (Z-Score Normalization)
